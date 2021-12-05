@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/article.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+	<title>Marvel News</title>
+</head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <header>
+                <a href="index.html"></a><img src="Images/Logo.PNG">
+                    <span id="clock"></span>
+                        <script>
+                            function displayTime() {
+                            let clock = document.querySelector("#clock"); 
+                            let now = new Date();       
+                            clock.textContent = now.toLocaleTimeString(); 
+                            }
+                            displayTime()              
+                            setInterval(displayTime, 1000); 
+                        </script>
+                <p id = "login_SignUp"><a href="login.html">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="signUp.html">Sign Up</a></p>
+        
+                </header>
+            </div>
+            
+            <div class="left">
+                <aside id= "leftAside">
+                    <ul>
+                        <li class="aside1"><a href="article1.html">Tom Holland says Spider-Man: No Way Home is "going to be brutal" for fans</a></li>
+                        <li class="aside1"><a href="article2.html">Eternals' Celestials Retcons Create Multiple MCU Plot Holes</a></li>
+                        <li class="aside1"><a href="article3.html">Shang-Chi: Is Marvel's Master of Kung Fu the MCU's Deadliest Fighter?</a></li>
+                        <li class="aside1"><a href="article4.html">Marvel Hawkeye Star Hailee Steinfeld Is Looking Forward to Joining Young Avengers</a></li>
+                        <li class="aside1"><a href="article5.html">Marvel’s Spider-Man 2: Which Villains Will Be In The Game?</a></li>
+                
+                    </ul>
+            
+                </aside>
+            </div>
+            
+            <div class="middle">
+                <section>
+                    <nav id="mobile_menu"></nav>
+                    <nav id="nav_menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="construction.html">About Us</a></li>
+                        <li><a href="article1.html">Featured Article</a></li>
+                        <li><a href="AllArticles.html">All Articles</a>
+                            <ul>
+                                <li><a href="article1.html">Spider-Man: No Way Home</a></li>
+                                <li><a href="article2.html">Eternals</a></li>
+                                <li><a href="article3.html">Shang-Chi</a></li>
+                                <li><a href="article4.html">Hawkeye</a></li>
+                                <li><a href="article5.html">Spider-Man PS5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+        
+                </nav>
+                    <img src="Images/Spider-Man-PS5.jpeg">
+                    
+                    <h2>Marvel’s Spider-Man 2: Which Villains Will Be In The Game?</h2>
+                    <p>Marvel’s Spider-Man 2 looks to be one of the biggest exclusive titles coming in the next couple of years for the PS5, but who are the villains that will be part of the game?</p>
+                    <p>The trailer for the new title already confirmed at least 2 of the major players from the Spider-Man universe who will be joining the title.</p>
+                    <p>Here’s everything you need to know about the villains that will be joining the cast of Marvel’s Spider-Man 2 on PS5.</p>
+
+                    <p>The initial trailer for the game seemed to confirm that players would be able to play as either Peter Parker or Miles Morales, with a plethora of choices in terms of combat expected to be part of the new title.</p>
+                    <p>With the title not being released until 2023, there’s at least a decent amount of time for more announcements and leaks to make their way out into the potential player base.</p>
+                    <h3>Which villains are in Marvel’s Spider-Man 2?</h3>
+                    <p>Thus far, Insomniac Games have only confirmed one of the main villains that will be part of the new Spider-Man 2 game that will be coming exclusively to the Playstation 5.</p>
+                    <p>Insomniac confirmed that Tony Todd will be voicing the role of Venom in the new game, bringing to life the greatest villain of the friendly neighbourhood superhero.</p>
+                    <p>They said: "And speaking of villains, did you catch that final line at the end of the trailer? We're so happy to announce that Tony Todd (of Candyman fame) will be voicing the symbiote-fueled Venom in Marvel's Spider-Man 2.</p>
+                    <p>“We're also delighted to welcome back Yuri Lowenthal and Nadji Jeter, who will reprise their roles as Peter and Miles respectively.</p>
+                    <p>“We've been fortunate to work with so many incredibly talented actors in our Spider-Man games, and Tony has been such a wonderful addition to the cast."</p>
+                    <p>It is expected that some of the other notable characters from the massively popular Marvel universe will also be making their way to the franchise, including Rhino, Green Goblin, Electro, Mysterio and Doc Oc. It is not confirmed if Carnage will be making an appearance in-game.</p>
+                    <p>By Jake Skudder</p>
+                    
+                    <iframe src="https://www.youtube.com/embed/qIQ3xNqkVC4"
+                    width="560"
+                    height="349"></iframe>
+
+                </section>
+            
+            </div>
+            <div class="right">
+                <aside id = "rightAside">
+                    <a href="https://www.coca-cola.ie/"><img src="Images/Coke.jpeg"></a><br>
+                    <a href="https://www.apple.com/ie/"><img src="Images/iphone.jpg"></a>  
+            </aside>
+            </div>
+            
+            <div class="footer">
+                <footer>
+                    <p><a href="construction.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">Frequently Asked Questions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">About Us</a>
+                    </p>
+            
+                </footer>
+            </div>
+        </div>
+
+    </body>
+
+</html>

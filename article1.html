@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/article.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+	<title>Marvel News</title>
+</head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <header>
+                <a href="index.html"></a><img src="Images/Logo.PNG">
+                    <span id="clock"></span>
+                        <script>
+                            function displayTime() {
+                            let clock = document.querySelector("#clock"); 
+                            let now = new Date();       
+                            clock.textContent = now.toLocaleTimeString(); 
+                            }
+                            displayTime()              
+                            setInterval(displayTime, 1000); 
+                        </script>
+                <p id = "login_SignUp"><a href="login.html">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="signUp.html">Sign Up</a></p>
+        
+                </header>
+            </div>
+            
+            <div class="left">
+                <aside id= "leftAside">
+                    <ul>
+                        <li class="aside1"><a href="article1.html">Tom Holland says Spider-Man: No Way Home is "going to be brutal" for fans</a></li>
+                        <li class="aside1"><a href="article2.html">Eternals' Celestials Retcons Create Multiple MCU Plot Holes</a></li>
+                        <li class="aside1"><a href="article3.html">Shang-Chi: Is Marvel's Master of Kung Fu the MCU's Deadliest Fighter?</a></li>
+                        <li class="aside1"><a href="article4.html">Marvel Hawkeye Star Hailee Steinfeld Is Looking Forward to Joining Young Avengers</a></li>
+                        <li class="aside1"><a href="article5.html">Marvel’s Spider-Man 2: Which Villains Will Be In The Game?</a></li>
+                
+                    </ul>
+            
+                </aside>
+            </div>
+            
+            <div class="middle">
+                <section>
+                    <nav id="mobile_menu"></nav>
+                    <nav id="nav_menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="construction.html">About Us</a></li>
+                        <li><a href="article1.html">Featured Article</a></li>
+                        <li><a href="AllArticles.html">All Articles</a>
+                            <ul>
+                                <li><a href="article1.html">Spider-Man: No Way Home</a></li>
+                                <li><a href="article2.html">Eternals</a></li>
+                                <li><a href="article3.html">Shang-Chi</a></li>
+                                <li><a href="article4.html">Hawkeye</a></li>
+                                <li><a href="article5.html">Spider-Man PS5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+        
+                </nav>
+                    <img src="Images/No_Way_Home.jpeg">
+                    
+                    <h2>Tom Holland says Spider-Man: No Way Home is "going to be brutal" for fans</h2>
+                    <blockquote>"I really don't think fans are at all ready for what they've put together."</blockquote>
+
+                    <p>Spider-Man: No Way Home's eagerly anticipated debut is just over a month away, and while its star Tom Holland has remained relatively tight-lipped on the spoiler front, he has teased that this outing will be tonally different from its predecessors.</p>
+                    <p>Revealing that the upcoming movie is "dark and sad", Holland told Total Film that fans should expect to be moved and affected by what the characters experience.</p>
+                    <blockquote>"What people will be really surprised about is that it's not fun, this film. You're going to see characters that you love go through things that you would never wish for them to go through. And I was just really excited to kind of lean into that side of Peter Parker."</blockquote>
+                    <p>Expanding further on his excitement to portray a different side of the titular hero, Holland said that Peter Parker "feels like he's met his match" and this challenges the usually upbeat web-slinger to not only think of a solution but to believe in his abilities to win in the end.</p>
+                    <blockquote>"Peter Parker is always someone who's looking up. He's always really positive. He's always like, 'I can fix this. I can do this.' Whereas in this film, he feels like he's met his match. He's like, 'I don't know what to do.' That was an aspect of the character that I'd never seen before, and I was really, really excited to try to tackle."</blockquote>
+                    <p>Holland described the parts of the final film he's seen as "the best work we've ever done" and suggested fans aren't prepared for where this latest tale will go, because he and the rest of the cast weren't either.</p>
+                    <blockquote>"I really don't think fans are at all ready for what they've put together," he concluded. "I know that I'm not ready, and I know that it's going to be brutal."</blockquote>
+                    <p>Speaking previously about his third appearance in the trilogy, Holland said that he and fellow cast members were soaking in every moment of filming, as they felt it was "the end of [the] franchise", whilst he also admitted filming was "bittersweet" as he doesn't know what the future holds for him as Spider-Man with no contracts renewed.</p>
+                    <p>However, before we venture too far ahead, we can look forward to a new trailer for No Way Home coming next week before its December release.</p>
+                    
+                    <p>By HANNAH BIRD</p>
+                    <iframe src="https://www.youtube.com/embed/JfVOs4VSpmA"
+                    width="560" height="349"></iframe>
+
+                </section>
+            
+            </div>
+            <div class="right">
+                <aside id = "rightAside">
+                    <a href="https://www.coca-cola.ie/"><img src="Images/Coke.jpeg"></a><br>
+                    <a href="https://www.apple.com/ie/"><img src="Images/iphone.jpg"></a>  
+            </aside>
+            </div>
+            
+            <div class="footer">
+                <footer>
+                    <p><a href="construction.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">Frequently Asked Questions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">About Us</a>
+                    </p>
+            
+                </footer>
+            </div>
+        </div>
+
+    </body>
+
+</html>

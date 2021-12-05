@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/log.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+	<title>Marvel News</title>
+</head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <header>
+                <a href="index.html"></a><img src="Images/Logo.PNG">
+                    <span id="clock"></span>
+                        <script>
+                            function displayTime() {
+                            let clock = document.querySelector("#clock"); 
+                            let now = new Date();       
+                            clock.textContent = now.toLocaleTimeString(); 
+                            }
+                            displayTime()              
+                            setInterval(displayTime, 1000); 
+                        </script>
+                <p id = "login_SignUp"><a href="login.html">Login</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="signUp.html">Sign Up</a></p>
+        
+                </header>
+            </div>
+            
+            <div class="left">
+                <aside id= "leftAside">
+                    <ul>
+                        <li class="aside1"><a href="article1.html">Tom Holland says Spider-Man: No Way Home is "going to be brutal" for fans</a></li>
+                        <li class="aside1"><a href="article2.html">Eternals' Celestials Retcons Create Multiple MCU Plot Holes</a></li>
+                        <li class="aside1"><a href="article3.html">Shang-Chi: Is Marvel's Master of Kung Fu the MCU's Deadliest Fighter?</a></li>
+                        <li class="aside1"><a href="article4.html">Marvel Hawkeye Star Hailee Steinfeld Is Looking Forward to Joining Young Avengers</a></li>
+                        <li class="aside1"><a href="article5.html">Marvel’s Spider-Man 2: Which Villains Will Be In The Game?</a></li>
+                
+                    </ul>
+            
+                </aside>
+            </div>
+            
+            <div class="middle">
+                <section>
+                    <nav id="mobile_menu"></nav>
+                    <nav id="nav_menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="construction.html">About Us</a></li>
+                        <li><a href="article1.html">Featured Article</a></li>
+                        <li><a href="AllArticles.html">All Articles</a>
+                            <ul>
+                                <li><a href="article1.html">Spider-Man: No Way Home</a></li>
+                                <li><a href="article2.html">Eternals</a></li>
+                                <li><a href="article3.html">Shang-Chi</a></li>
+                                <li><a href="article4.html">Hawkeye</a></li>
+                                <li><a href="article5.html">Spider-Man PS5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+        
+                </nav>
+                    <img src="Images/UnderConstruction.png">
+                </section>
+            
+            </div>
+            <div class="right">
+                <aside id = "rightAside">
+                    <a href="https://www.coca-cola.ie/"><img src="Images/Coke.jpeg"></a><br>
+                    <a href="https://www.apple.com/ie/"><img src="Images/iphone.jpg"></a>   
+            </aside>
+            </div>
+            
+            <div class="footer">
+                <footer>
+                    <p><a href="construction.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">Frequently Asked Questions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="construction.html">About Us</a>
+                    </p>
+            
+                </footer>
+            </div>
+        </div>
+
+    </body>
+
+</html>
